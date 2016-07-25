@@ -10,16 +10,8 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-       <form action="action_page.php">
-  <select name="action">
-    <option value="signup">Sign Up</option>
-    <option value="login">Log In</option>
-    
-  </select>
-  <br><br>
-  <input type="submit">
-</form>
-
-      
+        <?php
+        // put your code here
+        ?>
     </body>
 </html>
