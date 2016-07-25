@@ -11,16 +11,14 @@ and open the template in the editor.
     </head>
     <body>
         
-<form action="action_page.php">
-  <select name="action">
-    <option value="signup">Sign Up</option>
-    <option value="login">Log In</option>
-    
-  </select>
-  <br><br>
-  <input type="submit">
+
+<form action="demo_form.asp">
+First name: <input type="text" name="FirstName" value="Mickey"><br>
+Last name: <input type="text" name="LastName" value="Mouse"><br>
+<input type="submit" value="Submit">
 </form>
 
+<p>Click the "Submit" button and the form-data will be sent to a page on the server called "demo_form.asp".</p>
         <?php
         // put your code here
         ?>
