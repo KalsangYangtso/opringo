@@ -10,8 +10,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <h1> there are many people around the world however </h1>
+      
     </body>
 </html>
