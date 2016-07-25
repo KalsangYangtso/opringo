@@ -10,7 +10,16 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <h1> there are many people around the world however </h1>
+       <form action="action_page.php">
+  <select name="action">
+    <option value="signup">Sign Up</option>
+    <option value="login">Log In</option>
+    
+  </select>
+  <br><br>
+  <input type="submit">
+</form>
+
       
     </body>
 </html>
